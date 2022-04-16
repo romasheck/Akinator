@@ -1,0 +1,20 @@
+digraph G{
+    graph [ rankdir=UD ]
+    N00E90F88 [label = "Amy"];
+    N00E91418 [label = "is this a women?"];
+    N00E90FB0 [label = "Rory"];
+    N00E913F0 [label = "is this a human?"];
+    N00E91028 [label = "Master"];
+    N00E91000 [label = "is this a villain?"];
+    N00E91050 [label = "Doctor"];
+    N00E90FD8 [label = "is this alive?"];
+    N00E91078 [label = "TARDIS"];
+    N00E913F0 -> N00E91418 [label = "yes"];
+    N00E91418 -> N00E90F88 [label = "yes"];
+    N00E91418 -> N00E90FB0 [label = "no"];
+    N00E913F0 -> N00E90FD8 [label = "no"];
+    N00E90FD8 -> N00E91000 [label = "yes"];
+    N00E91000 -> N00E91028 [label = "yes"];
+    N00E91000 -> N00E91050 [label = "no"];
+    N00E90FD8 -> N00E91078 [label = "no"];
+}
